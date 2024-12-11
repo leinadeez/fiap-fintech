@@ -76,9 +76,11 @@ body {
 
 h1 img {
     width: 400px;
+    max-width: 100%;
 }
 h2 img {
     width: 400px;
+    max-width: 100%;
 }
 button {
     width: 240px;
