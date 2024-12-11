@@ -1,0 +1,102 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#claquete-1 {
+    background: #ff8214;
+    width: 200%;
+    height: 200%;
+    display: block;
+    position: fixed;
+    z-index:0;
+    top:-200%;
+    transition:all 500ms ease-out;
+    rotate: -180deg;
+}
+#claquete-1.open {
+    rotate:-195deg;
+    top:-160%;
+    left: -100%;
+}
+#claquete-2 {
+    background: #ff9822;
+    width: 200%;
+    height: 200%;
+    display: block;
+    position: fixed;
+    z-index:-1;
+    top:-200%;
+    transition:all 500ms ease-out;
+    rotate: -180deg;
+}
+#claquete-2.open {
+    rotate:-189deg;
+    top:-158%;
+    left: -100%;
+}
+
+#claquete-3 {
+    background: #2414ff;
+    width: 200%;
+    height: 200%;
+    display: block;
+    position: fixed;
+    z-index:0;
+    bottom:-200%;
+    transition:all 500ms ease-out;
+    rotate: -180deg;
+}
+#claquete-3.open {
+    rotate:-195deg;
+    bottom:-160%;
+    right: -100%;
+}
+#claquete-4 {
+    background: #2261ff;
+    width: 200%;
+    height: 200%;
+    display: block;
+    position: fixed;
+    z-index:-1;
+    bottom:-200%;
+    transition:all 500ms ease-out;
+    rotate: -180deg;
+}
+#claquete-4.open {
+    rotate:-189deg;
+    bottom:-158%;
+    right: -100%;
+}
+
+.container {
+    position:relative;
+    z-index: 1;
+}
+
+h1 img {
+    width: 400px;
+}
+h2 img {
+    width: 400px;
+}
+button {
+    width: 240px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    font-size: 24px;
+}
+button.green{
+    background-color: #7ed800;
+}
+button.green:hover{
+    background-color: #a1d657;
+}
+button.orange{
+    background-color: #ff8214;
+}
+button.orange:hover{
+    background-color: #ffb778;
+}
